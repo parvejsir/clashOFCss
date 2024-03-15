@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first</title>
+    <style>
+        table tr td{
+            border: 2px solid black;
+        }
+        *{
+            margin: 0%;
+            padding:0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        td{
+            width: 40px;
+            height: 40px;
+        }
+        .container{
+        position: relative;
+        z-index: 1;
+
+        }
+        .loading{
+            position: absolute;
+            z-index: 2;
+            top: 30%;
+            left: 30%;
+            animation: load 4s linear 2s infinite alternate;
+           
+
+        }
+        @keyframes load {
+                0%{ 
+                    border-top: 5px solid orange;
+                    border-width: 100px;
+                    
+                }
+                25%{
+                     border-right: 5px solid orange;
+                     border-width: 100px;
+                }
+                50%{
+                    border-bottom: 5px solid orange;
+                    border-width: 100px;
+                }
+                75%{
+                    border-left: 5px solid orange;
+                    border-width: 100px;
+                }
+                100%{
+                    border-top: 5px solid orange;
+                    border-width: 100px;
+                }
+                
+            }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <table >
+      <div class="row1">
+        <tr>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+        </tr>
+      </div>
+      <div class="row2">
+        <tr>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+        </tr>
+      </div>
+      <div class="row3">
+        <tr>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+        </tr>
+      </div>
+      <div class="row4">
+        <tr>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+        </tr>
+      </div>
+      <div class="row5">
+        <tr>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+        </tr>
+      </div>
+      <div class="row6">
+        <tr>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+        </tr>
+      </div>
+      <div class="row7">
+        <tr>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+        </tr>
+      </div>
+      <div class="row8">
+        <tr>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+        </tr>
+      </div>
+      <div class="row9">
+        <tr>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+            <td style="background-color: black;"></td>
+            <td style="background-color:white;"></td>
+        </tr>
+      </div>
+    </table>
+    <div class="loading">
+        
+    </div>
+   </div>
+</body>
+</html>
